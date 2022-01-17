@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 12, 1fr;
+	grid-template-rows: 100px 1fr;
+}
+
+#banner_img {
+	position: absolute;
+	z-index: 1;
+	margin-top: -35px;
+	opacity: 0.8;
+}
+
+#navbarNavAltMarkup {
+
+}
+
+nav > div > div > a {
+	background-color: #04724D;
+}
+
+#banner_message {
+	position: relative;
+	z-index: 2;
+	font: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	color: #000000;
+	grid-row: 9/11;
+	
+}
