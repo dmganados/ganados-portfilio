@@ -17,9 +17,6 @@ main {
 	opacity: 0.8;
 }
 
-#navbarNavAltMarkup {
-
-}
 
 nav > div > div > a {
 	background-color: #04724D;
@@ -29,8 +26,19 @@ nav > div > div > a {
 	position: relative;
 	z-index: 2;
 	font: 'Source Sans Pro', sans-serif;
-	font-size: 50px;
+	font-size: 65px;
 	color: #000000;
-	grid-row: 9/11;
+
 	
+}
+
+#button_banner {
+	position: absolute;
+	z-index: 2;
+	background-color: #04724D;
+	color: #F4F4F9;
+	width: 200px;
+	padding: 20px;
+	border-radius: 50px;
+	border: none;
 }
