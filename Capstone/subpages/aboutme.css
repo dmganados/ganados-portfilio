@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav > div > div > a {
+	background-color: #04724D;
+}
+
+main {
+	position: absolute;
+	z-index: 1;
+	margin-top: -25px;
+	background-color: #B8DBD9;
+	height: auto;
+}
+
+#logo_img {
+	margin-top: -20px;
+}
+
+.nav-item {
+	background-color: #04724D;
+	width: 200px;
+	text-align: center;
+
+}
+
+#navbarNav a:hover {
+	background-color: #000000;
+	color: #F4F4F9;
+}
+
+#prof_present {
+	margin-left: 50px;
+}
+
+#prof_previous {
+	margin-left: 200px;
+}
+
+#educ_present {
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+#educ_previous {
+	margin-left: 200px;
+}
+
+#skills {
+	margin-left: 50px;
+}
